@@ -669,21 +669,21 @@
     },
     "10071": {
         "id": 10071,
-        "event": "比较顺风顺水，快乐的一年。",
+        "event": "You enjoyed the peaceful time with your parents in the last year.",
         "effect": {
             "SPR": 1
         }
     },
     "10072": {
         "id": 10072,
-        "event": "有天打雷，劈断了你家门口一棵树。",
+        "event": "A thunderstorm destroyed your yard.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10072,10025]"
     },
     "10073": {
         "id": 10073,
-        "event": "你意外挖到一个上了锁的盒子。",
-        "postEvent": "你打不开，只好扔了。",
+        "event": "You dig out an antique box in the garden.",
+        "postEvent": "You tried your best to unlock it but still failed eventually.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10073,10025]",
         "branch": [
@@ -692,8 +692,8 @@
     },
     "10074": {
         "id": 10074,
-        "event": "你想方设法打开了锁。",
-        "postEvent": "里面有大量珠宝。",
+        "event": "You unlocked the box after 3 hours.",
+        "postEvent": "You find jewellery in the box, it looks expensive.",
         "effect": {
             "MNY": 2,
             "SPR": 2
@@ -702,7 +702,7 @@
     },
     "10075": {
         "id": 10075,
-        "event": "你的运动天赋好像不错。",
+        "event": "You are athletic and good at multiple sports.",
         "include": "STR>8",
         "exclude": "EVT?[10075]",
         "branch": [
@@ -711,39 +711,39 @@
     },
     "10076": {
         "id": 10076,
-        "event": "你发现动物好像都不怎么害怕你。",
+        "event": "You are kind and close to animals.",
         "include": "(CHR>9)&(EVT?[10009])",
         "exclude": "EVT?[10076,10052]"
     },
     "10077": {
         "id": 10077,
-        "event": "你发现你和其他人的想法好像都不一样。",
+        "event": "You always have unique ideas different from other kids.",
         "include": "INT>9",
         "exclude": "EVT?[10077,10090]"
     },
     "10078": {
         "id": 10078,
-        "event": "你们家成为村里最富的家庭。",
+        "event": "Your family is the richest one in the town.",
         "include": "(MNY>7)&(EVT?[10009])",
         "exclude": "EVT?[10078,10025]"
     },
     "10079": {
         "id": 10079,
-        "event": "你的高颜值已经在周边家喻户晓。",
+        "event": "You become famous in the town.",
         "include": "(CHR>7)&(EVT?[10009])",
         "exclude": "EVT?[10079]"
     },
     "10080": {
         "id": 10080,
-        "event": "有人将你发在了网上，你小有名气。",
-        "postEvent": "很多人来你家拍短视频。",
+        "event": "Someone posted video clips about you on youtube.",
+        "postEvent": "The video clips attract your neighbours.",
         "include": "(CHR>8)&(EVT?[10079])",
         "exclude": "EVT?[10080]"
     },
     "10081": {
         "id": 10081,
-        "event": "有星探和公司想带你去大城市发展。",
-        "postEvent": "你没有同意。",
+        "event": "Someone from the film industry invites you to a cast in new york city.",
+        "postEvent": "You don't want to leave for new york city and turn him down.",
         "include": "EVT?[10080]",
         "exclude": "EVT?[10081]",
         "branch": [
@@ -752,8 +752,8 @@
     },
     "10082": {
         "id": 10082,
-        "event": "你来到了一线城市，住进了一家网络公司。",
-        "postEvent": "你开始直播生活。",
+        "event": "You leave for new york city and accept the offer from a film company.",
+        "postEvent": "You start to play roles in films.",
         "effect": {
             "MNY": 2,
             "SPR": 1
@@ -762,8 +762,8 @@
     },
     "10083": {
         "id": 10083,
-        "event": "你过气了，被公司解除了协议。",
-        "postEvent": "你回到了乡下。",
+        "event": "You screw it up and you are fired by the company.",
+        "postEvent": "You go back to your hometown.",
         "include": "EVT?[10082]",
         "exclude": "EVT?[10083]",
         "branch": [
@@ -772,8 +772,8 @@
     },
     "10084": {
         "id": 10084,
-        "event": "你过惯了奢靡的生活，无法再回乡下了。",
-        "postEvent": "你开始出卖身体维持生活质量。",
+        "event": "You want to live a luxury life instead of going back to the small town.",
+        "postEvent": "You try your best to please the rich and powerful.",
         "effect": {
             "STR": -1,
             "SPR": 1
@@ -782,7 +782,7 @@
     },
     "10085": {
         "id": 10085,
-        "event": "你患上了艾滋病。",
+        "event": "You get AIDS.",
         "effect": {
             "STR": -3,
             "SPR": -2
@@ -795,7 +795,7 @@
     },
     "10086": {
         "id": 10086,
-        "event": "你的病情逐渐加重。",
+        "event": "Your health is getting poor.",
         "effect": {
             "STR": -3,
             "SPR": -1
@@ -807,7 +807,7 @@
     },
     "10087": {
         "id": 10087,
-        "event": "你已经财务自由，不再出卖身体。",
+        "event": "You achieve financial freedom.",
         "effect": {
             "MNY": 2
         },
@@ -816,7 +816,7 @@
     },
     "10088": {
         "id": 10088,
-        "event": "你嫁给了一个普通的程序员。",
+        "event": "You marry an engineer.",
         "effect": {
             "SPR": 2
         },
@@ -825,7 +825,7 @@
     },
     "10089": {
         "id": 10089,
-        "event": "国家扶贫，你家获得了帮助。",
+        "event": "Your family is aided by a well-known foundation.",
         "effect": {
             "MNY": 1,
             "SPR": 1
@@ -834,8 +834,8 @@
     },
     "10090": {
         "id": 10090,
-        "event": "你的智力过高，被外星人抓走做实验。",
-        "postEvent": "又放了回来。",
+        "event": "You are kidnapped by aliens because they've never seen someone who has the same IQ level in the planet.",
+        "postEvent": "They let you go after several days.",
         "effect": {
             "INT": -1,
             "STR": -1,
@@ -849,7 +849,7 @@
     },
     "10091": {
         "id": 10091,
-        "event": "你经常在家搞些小发明。",
+        "event": "You are curious about science and make gizmos at home.",
         "effect": {
             "INT": 1
         },
@@ -862,8 +862,8 @@
     },
     "10092": {
         "id": 10092,
-        "event": "你被一只蛇咬了。",
-        "postEvent": "还好没有毒。",
+        "event": "You are hurt by a snake.",
+        "postEvent": "Fortunately it's not a viper.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10092]",
         "branch": [
@@ -872,7 +872,7 @@
     },
     "10093": {
         "id": 10093,
-        "event": "你第一次被父母打。",
+        "event": "Your parents punish you for your bad behaviour.",
         "effect": {
             "SPR": -1
         },
@@ -880,7 +880,7 @@
     },
     "10094": {
         "id": 10094,
-        "event": "你第一次坐在躺椅上，看灿烂的银河星空",
+        "event": "You sit on the chair in the garden, looking at the sky and stars quietly.",
         "effect": {
             "SPR": 1
         },
@@ -889,7 +889,7 @@
     },
     "10095": {
         "id": 10095,
-        "event": "你在晚上和小伙伴一起捉萤火虫。",
+        "event": "You play around and try to catch fireflies in the garden.",
         "effect": {
             "SPR": 1
         },
@@ -898,28 +898,28 @@
     },
     "10096": {
         "id": 10096,
-        "event": "你听说国外发生了很多大事。",
-        "postEvent": "但感觉离你很遥远。",
+        "event": "You read some astonishing news just happened.",
+        "postEvent": "But you feel all of them are far away from your daily life.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10096]"
     },
     "10097": {
         "id": 10097,
-        "event": "隔壁村的一个孩子淹死了。",
-        "postEvent": "你的父母一年都没让你去池塘玩。",
+        "event": "A kid in your neighbourhood was drowned.",
+        "postEvent": "Your parents forbid you from walking by the lake.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10097,10015,10016,10017,10024]"
     },
     "10098": {
         "id": 10098,
-        "event": "你听了轮回转世的神话故事。",
-        "postEvent": "感觉好像似曾相识。",
+        "event": "You read some tales about rebirth.",
+        "postEvent": "Déjà vu.",
         "include": "INT>4",
         "exclude": "EVT?[10098]"
     },
     "10099": {
         "id": 10099,
-        "event": "你徒手抓住了一只老鼠。",
+        "event": "You catch a mice in the garden.",
         "effect": {
             "SPR": 1
         },
@@ -928,31 +928,31 @@
     },
     "10100": {
         "id": 10100,
-        "event": "你常常坐在家门口发呆，十分无聊。",
+        "event": "You don't feel like talking and often sit at the front door.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10100,10036,10037]"
     },
     "10101": {
         "id": 10101,
-        "event": "你开始上小学了。",
+        "event": "You go to the primary school.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10101]"
     },
     "10102": {
         "id": 10102,
-        "event": "你在学校交到了新朋友。",
+        "event": "You make some new friends.",
         "include": "(INT>2)&(CHR>2)&(EVT?[10101])",
         "exclude": "EVT?[10102]"
     },
     "10103": {
         "id": 10103,
-        "event": "你第一次接触英语。",
+        "event": "You start to learn Mandarin and French.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10103]"
     },
     "10104": {
         "id": 10104,
-        "event": "你们的数学老师是一个支教老师。",
+        "event": "Your math teacher is kind and sweet.",
         "effect": {
             "INT": 1
         },
@@ -961,7 +961,7 @@
     },
     "10105": {
         "id": 10105,
-        "event": "学校老师太少，你们的体育老师还教你们语文课。",
+        "event": "The education resource is limited in your town.",
         "effect": {
             "INT": -1
         },
@@ -970,14 +970,14 @@
     },
     "10106": {
         "id": 10106,
-        "event": "你期末考试考了100分。",
+        "event": "You get a full mark in the finals.",
         "include": "(INT>7)&(EVT?[10101])",
         "exclude": "EVT?[10106]"
     },
     "10107": {
         "id": 10107,
-        "event": "你期末考试全都不及格。",
-        "postEvent": "老师来家访。",
+        "event": "You get F in the finals.",
+        "postEvent": "Your principal wants to meet your parents in person.",
         "effect": {
             "SPR": -1
         },
@@ -986,13 +986,13 @@
     },
     "10108": {
         "id": 10108,
-        "event": "你当上了体育课代表。",
+        "event": "You are popular at school",
         "include": "(STR>7)&(EVT?[10101])",
         "exclude": "EVT?[10108]"
     },
     "10109": {
         "id": 10109,
-        "event": "你在同学中非常受欢迎。",
+        "event": "You are popular among your friends.",
         "effect": {
             "SPR": 1
         },
@@ -1001,18 +1001,18 @@
     },
     "10110": {
         "id": 10110,
-        "event": "你出生了，是极为罕见的无性人。",
+        "event": "Born, you are asexual.",
         "exclude": "TLT?[1003,1004,1024,1113]"
     },
     "10111": {
         "id": 10111,
-        "event": "你出生了，是极为罕见的双性人。",
+        "event": "Born, you are hermaphrodite.",
         "exclude": "TLT?[1003,1004,1025]"
     },
     "10112": {
         "id": 10112,
-        "event": "同学总是欺负你。",
-        "postEvent": "还嘲笑你的长相。",
+        "event": "You are always bullied by other kids.",
+        "postEvent": "They laugh at you.",
         "effect": {
             "SPR": -2
         },
@@ -1021,8 +1021,8 @@
     },
     "10113": {
         "id": 10113,
-        "event": "同学总是欺负你。",
-        "postEvent": "还嘲笑你的成绩。",
+        "event": "Your classmates bully you.",
+        "postEvent": "They laugh at your academic performance.",
         "effect": {
             "SPR": -2
         },
@@ -1031,8 +1031,8 @@
     },
     "10114": {
         "id": 10114,
-        "event": "同学总是欺负你。",
-        "postEvent": "嘲笑你不男不女。",
+        "event": "Your classmates bully you.",
+        "postEvent": "They laugh at your appearance.",
         "effect": {
             "SPR": -2
         },
@@ -1041,7 +1041,7 @@
     },
     "10115": {
         "id": 10115,
-        "event": "你和同桌偷偷谈起了恋爱。",
+        "event": "You have a crush on a girl in your class.",
         "effect": {
             "SPR": 1
         },
@@ -1050,7 +1050,7 @@
     },
     "10116": {
         "id": 10116,
-        "event": "你和同桌悄悄谈起了恋爱。",
+        "event": "You have a puppy love with your classmate.",
         "effect": {
             "SPR": 1
         },
@@ -1059,7 +1059,7 @@
     },
     "10117": {
         "id": 10117,
-        "event": "你当上了班长。",
+        "event": "You are elected to be the president of student union.",
         "effect": {
             "SPR": 1
         },
@@ -1068,19 +1068,19 @@
     },
     "10118": {
         "id": 10118,
-        "event": "你当上了领操员。",
+        "event": "You are elected to be the basketball team leader.",
         "include": "(CHR>3)&(STR>6)&(EVT?[10101])",
         "exclude": "EVT?[10118]"
     },
     "10119": {
         "id": 10119,
-        "event": "你为班级出了一次黑板报。",
+        "event": "You organize a basketball game at school.",
         "include": "(EVT?[10048])&(EVT?[10101])",
         "exclude": "EVT?[10119]"
     },
     "10120": {
         "id": 10120,
-        "event": "你们班收到了捐赠的书籍文具。",
+        "event": "A foundation denotes books to your school.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10120,10025,10120]"
     },
