@@ -1086,33 +1086,33 @@
     },
     "10121": {
         "id": 10121,
-        "event": "你们班建立了读书角。",
+        "event": "You established a science group at school.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10121]"
     },
     "10122": {
         "id": 10122,
-        "event": "学校里盖了一座新楼。",
+        "event": "A new lab is built in the campus.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10122,10025]"
     },
     "10123": {
         "id": 10123,
-        "event": "村中阿婆家新盖了小洋房。",
-        "postEvent": "听说是孩子在外面赚了大钱。",
+        "event": "Your neighbour buy a land and build a new house in the town.",
+        "postEvent": "It's said that they dig out jewellery in their backyard.'",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10123,10025]"
     },
     "10124": {
         "id": 10124,
-        "event": "夏日的一天村里鞭炮齐鸣。",
-        "postEvent": "听说是人家的孩子考上了重点大学。",
+        "event": "You are invited to a party by your neighbours.",
+        "postEvent": "A kid gets an offer from Harvard.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10124,10025]"
     },
     "10125": {
         "id": 10125,
-        "event": "你的父亲意外去世。",
+        "event": "Your father passed away by accident.",
         "effect": {
             "MNY": -2,
             "SPR": -2
@@ -1122,7 +1122,7 @@
     },
     "10126": {
         "id": 10126,
-        "event": "你的母亲意外去世。",
+        "event": "Your mon passed away by accident.",
         "effect": {
             "MNY": -1,
             "SPR": -2
@@ -1132,7 +1132,7 @@
     },
     "10127": {
         "id": 10127,
-        "event": "你的爷爷因病去世。",
+        "event": "Your grandpa passed away because of cancer.",
         "effect": {
             "SPR": -1
         },
@@ -1141,7 +1141,7 @@
     },
     "10128": {
         "id": 10128,
-        "event": "你的奶奶因病去世。",
+        "event": "Your grandma passed away because of cancer.",
         "effect": {
             "SPR": -1
         },
@@ -1150,7 +1150,7 @@
     },
     "10129": {
         "id": 10129,
-        "event": "你很努力学习，但成绩就是提不上去。",
+        "event": "You try your best at school, but still fail to improve your academic performance.",
         "effect": {
             "SPR": -1
         },
@@ -1159,7 +1159,7 @@
     },
     "10130": {
         "id": 10130,
-        "event": "今年大丰收，而且你家种的菜也涨价了。",
+        "event": "Thanks to the good weather, the production of corn is on the increase at your farm.",
         "effect": {
             "MNY": 1,
             "SPR": 1
@@ -1169,7 +1169,7 @@
     },
     "10131": {
         "id": 10131,
-        "event": "你获得了第一份奖状。",
+        "event": "You win the second prize in a mathematics competition.",
         "effect": {
             "SPR": 1
         },
@@ -1178,7 +1178,7 @@
     },
     "10132": {
         "id": 10132,
-        "event": "你获评三好学生。",
+        "event": "You win the first prize in a mathematics competition.",
         "effect": {
             "SPR": 1
         },
@@ -1186,7 +1186,7 @@
     },
     "10133": {
         "id": 10133,
-        "event": "你获评三好标兵。",
+        "event": "You win the gold medal in a national mathematics competition.",
         "effect": {
             "SPR": 2
         },
@@ -1194,33 +1194,33 @@
     },
     "10134": {
         "id": 10134,
-        "event": "有同学在班上炫耀新玩具，被老师没收了。",
+        "event": "One of your classmates plays mobile games during the math class.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10134]"
     },
     "10135": {
         "id": 10135,
-        "event": "你前排的同学在课上偷偷玩手机。",
+        "event": "One of your best friend plays mobile games during the math class.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10135]"
     },
     "10136": {
         "id": 10136,
-        "event": "老师在班上进行了IQ测试。",
-        "postEvent": "你获得了145分",
+        "event": "There is a public IQ test at school.",
+        "postEvent": "You get a result of 145.",
         "include": "(INT>7)&(EVT?[10101])",
         "exclude": "EVT?[10136]"
     },
     "10137": {
         "id": 10137,
-        "event": "老师在班上进行了IQ测试。",
-        "postEvent": "你获得了135分",
+        "event": "There is a public IQ test at school.",
+        "postEvent": "You get a result of 135.",
         "include": "(INT>6)&(EVT?[10101])",
         "exclude": "EVT?[10137]"
     },
     "10138": {
         "id": 10138,
-        "event": "努力学习的一年，能感受到水平的提高。",
+        "event": "After a year of hard work, you get obvious academic improvements.",
         "effect": {
             "INT": 1
         },
@@ -1229,7 +1229,7 @@
     },
     "10139": {
         "id": 10139,
-        "event": "没有用功学习的一年，能感受到水平的下降。",
+        "event": "Spent most of your time on amusement in the last year, you failed in multiple final exams.",
         "effect": {
             "INT": -1
         },
@@ -1238,7 +1238,7 @@
     },
     "10140": {
         "id": 10140,
-        "event": "你家养的狗被人毒死了。",
+        "event": "A car hits your puppy and it died.",
         "effect": {
             "SPR": -1
         },
@@ -1247,7 +1247,7 @@
     },
     "10141": {
         "id": 10141,
-        "event": "你家养的猫被人毒死了。",
+        "event": "A car hits your puppy and it died.",
         "effect": {
             "SPR": -1
         },
@@ -1256,18 +1256,18 @@
     },
     "10142": {
         "id": 10142,
-        "event": "家里老鼠蟑螂泛滥成灾。",
+        "event": "There is a water leakage in your room.",
         "include": "(MNY<5)&(EVT?[10009])"
     },
     "10143": {
         "id": 10143,
-        "event": "隔壁的村花和邻居叔叔结婚了。",
+        "event": "Your cousin is getting married with a rich.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10143,10031,10025]"
     },
     "10144": {
         "id": 10144,
-        "event": "你天天被父母殴打。",
+        "event": "Your parents have alcoholism, they can't stop drinking alcohol.",
         "effect": {
             "SPR": -2
         },
@@ -1276,50 +1276,50 @@
     },
     "10145": {
         "id": 10145,
-        "event": "成为了弹弓高手，一弹一鸟。",
+        "event": "You master the skill of catching fish, you are the best in the town.",
         "include": "(INT>3)&(STR>5)&(EVT?[10009])",
         "exclude": "EVT?[10145,10002,10025]"
     },
     "10146": {
         "id": 10146,
-        "event": "在田里插秧时，总是被水蛭叮咬。",
+        "event": "When you play around in the field, you are always bit by leech.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10146,10002,10025]"
     },
     "10147": {
         "id": 10147,
-        "event": "村子里基本没几个年轻人了。",
+        "event": "Young people in your town leave for the big city one by one.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10147,10025]"
     },
     "10148": {
         "id": 10148,
-        "event": "你家装上了全村唯一的wifi，总有人来问密码。",
+        "event": "You build the fastest WiFi system in the town at home.",
         "include": "(MNY>6)&(EVT?[10009])",
         "exclude": "EVT?[10148,10024]"
     },
     "10149": {
         "id": 10149,
-        "event": "教室里唯一较好的窗户也破了。",
-        "postEvent": "下雨天靠窗完全不能坐人了。",
+        "event": "You find water leakage in the classroom.",
+        "postEvent": "Everyone gets wet when it rains.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10149,10025]"
     },
     "10150": {
         "id": 10150,
-        "event": "你家的屋檐上多了个燕子窝。",
+        "event": "You see a bird's nest in the corner of your roof.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10150]"
     },
     "10151": {
         "id": 10151,
-        "event": "教室窗外多了个马蜂窝。",
+        "event": "You see a hornet's nest around your classroom.",
         "include": "EVT?[10101]",
         "exclude": "EVT?[10151]"
     },
     "10152": {
         "id": 10152,
-        "event": "你的床板塌了，只能睡桌椅上了。",
+        "event": "The window of your bedroom is suddenly broken into pieces, you startle from sleep.",
         "effect": {
             "STR": -1
         },
@@ -1328,7 +1328,7 @@
     },
     "10153": {
         "id": 10153,
-        "event": "你突然生了场大病。",
+        "event": "You get ill suddenly.",
         "effect": {
             "STR": -2,
             "MNY": -1,
@@ -1342,7 +1342,7 @@
     },
     "10154": {
         "id": 10154,
-        "event": "你总是遭遇校园暴力。",
+        "event": "You are bullied at school, but you hide it from your parents.",
         "effect": {
             "SPR": -2
         },
@@ -1354,26 +1354,26 @@
     },
     "10155": {
         "id": 10155,
-        "event": "你家人让你能辍学打工，为弟弟攒彩礼钱。",
+        "event": "Your parents can't afford extra expense besides your tuition fees.",
         "include": "(EVT?[10014])&(EVT?[10101])",
         "exclude": "(EVT?[10155,10156])|(TLT?[1015])"
     },
     "10156": {
         "id": 10156,
-        "event": "你家人让你能辍学打工，补贴家用。",
+        "event": "You parents ask you to apply for a part-time job after school.",
         "include": "(MNY<5)&(EVT?[10101])",
         "exclude": "(EVT?[10155,10156])|(TLT?[1015])"
     },
     "10157": {
         "id": 10157,
-        "event": "你在城里找到了一份工作。",
+        "event": "You find a job at the grocery.",
         "include": "EVT?[10155,10156,10025]",
         "exclude": "EVT?[10157]"
     },
     "10158": {
         "id": 10158,
-        "event": "你买彩票中了个小奖。",
-        "postEvent": "虽然钱不多但很快乐。",
+        "event": "You win the lottery.",
+        "postEvent": "You receive one thousand dollars.",
         "effect": {
             "SPR": 1
         },
@@ -1382,7 +1382,7 @@
     },
     "10159": {
         "id": 10159,
-        "event": "你买彩票中了个大奖。",
+        "event": "You win the powerball lottery.",
         "effect": {
             "MNY": 2,
             "SPR": 2
@@ -1392,13 +1392,13 @@
     },
     "10160": {
         "id": 10160,
-        "event": "你留了一级。",
+        "event": "You failed all the final exams.",
         "include": "(INT<4)&(EVT?[10101])",
         "exclude": "EVT?[10160,10025,10156,10155]"
     },
     "10161": {
         "id": 10161,
-        "event": "你遭到了同事的性骚扰。",
+        "event": "You are molested.",
         "effect": {
             "SPR": -1
         },
@@ -1406,7 +1406,7 @@
     },
     "10162": {
         "id": 10162,
-        "event": "你遭到了同事的性侵。",
+        "event": "You are molested by your colleagues.",
         "effect": {
             "SPR": -2
         },
@@ -1414,32 +1414,32 @@
     },
     "10163": {
         "id": 10163,
-        "event": "过年时拜访了几十家亲戚。",
+        "event": "During the Christmas holiday, you pay visits to your cousins.",
         "include": "(STR>1)&(EVT?[10009])",
         "exclude": "EVT?[10163,10025,10156,10155]"
     },
     "10164": {
         "id": 10164,
-        "event": "家里茅坑废弃了，换成了马桶。",
+        "event": "The bathtub splits when you are taking a bath.",
         "include": "(MNY>4)&(EVT?[10009])",
         "exclude": "EVT?[10164,10025,10156,10155]"
     },
     "10165": {
         "id": 10165,
-        "event": "通了自来水，家里的井不再使用。",
+        "event": "You get the new air conditioner in the house.",
         "include": "(MNY>3)&(EVT?[10009])",
         "exclude": "EVT?[10164,10165,10025,10156,10155]"
     },
     "10166": {
         "id": 10166,
-        "event": "半夜发烧，爸妈路边等公交车送你去县城医院.",
+        "event": "You have a fever at midnight, your parents take you to the hospital.",
         "include": "(STR<5)&(MNY<5)&(EVT?[10009])",
         "exclude": "EVT?[10166,10015,10016,10017,10125,10126]"
     },
     "10167": {
         "id": 10167,
-        "event": "用牙齿咬欺凌自己的人，反而被告老师。",
-        "postEvent": "很委屈。",
+        "event": "You fight back when you are bullied, bullies are hurt.",
+        "postEvent": "The bullies are sent to the hospital, your teacher punish you for that.",
         "effect": {
             "SPR": -1
         },
@@ -1448,19 +1448,19 @@
     },
     "10168": {
         "id": 10168,
-        "event": "被老人讲的鬼故事吓到。",
+        "event": "You are frightened by a horror film.",
         "include": "EVT?[10009]",
         "exclude": "EVT?[10168,10127,10128]"
     },
     "10169": {
         "id": 10169,
-        "event": "买小卖部的零食吃，第二天拉肚子发烧。",
+        "event": "You have food poisoning after eating at the canteen.",
         "include": "(STR<5)&(MNY>2)&(EVT?[10009])",
         "exclude": "EVT?[10169]"
     },
     "10170": {
         "id": 10170,
-        "event": "被同学取难听的外号。",
+        "event": "Bullies at school laugh at you and call you fatty.",
         "effect": {
             "SPR": -1
         },
